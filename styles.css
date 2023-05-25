@@ -1,0 +1,30 @@
+.container {
+ background: linear-gradient(#bd09b7,#6b4cf5);  
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ border-radius: 20px;
+ padding: 20px; 
+ width: 300px;
+ margin: 0 auto;
+}
+.container>h1 {
+    color: black;
+}
+ div> label {
+    color: aliceblue;
+ }
+ form> div:not(:last-of-type){
+    display: flex;
+    flex-direction: column;
+ }
+
+form>div{
+    margin-bottom:10px;
+    
+}
+ input,select{
+    padding: 7px;
+}
+ button{
+    margin-left: 220px;
+    padding: 5px 15px;
+ }
